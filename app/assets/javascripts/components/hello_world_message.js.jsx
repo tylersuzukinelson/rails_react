@@ -6,7 +6,10 @@ var HelloWorldMessage = React.createClass({
 
   render: function() {
     return (
-        <p>{this.props.text}</p>
+        <div class="hello-world-message">
+          <p>{this.props.text}</p>
+          <AnotherOne />
+        </div>
       );
   }
 });

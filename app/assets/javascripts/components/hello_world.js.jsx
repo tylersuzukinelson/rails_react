@@ -13,6 +13,7 @@ var HelloWorld = React.createClass({
           <HelloWorldMessage text="This is a test message" />
           <HelloWorldMessage text="So is this." />
           <HelloWorldMessage text="And another one" />
+          <AnotherOne dingaling="dong" />
         </div>
       );
   }
