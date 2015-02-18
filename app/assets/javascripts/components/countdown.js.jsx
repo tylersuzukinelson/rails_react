@@ -13,6 +13,7 @@ var Countdown = React.createClass({
         self.setState({secondsRemaining: self.state.secondsRemaining - 1});
       } else {
         clearInterval(self.counter);
+        self.props.onComplete();
       }
     }, 1000)
   },

@@ -1,5 +1,9 @@
 var HelloWorld = React.createClass({
 
+  doneCountdown: function() {
+    alert('Countdown completed!');
+  },
+
   render: function() {
     var someVar = "This is text from a variable.";
     var pStyle = {
@@ -8,6 +12,7 @@ var HelloWorld = React.createClass({
     };
     return (
         <div class="hello-world-component">
+          <Countdown start={5} onComplete={this.doneCountdown} />
           <h1>Hello World!</h1>
           <p style={pStyle}>{someVar}</p>
           <HelloWorldMessage type="important" text="This is a test message" />
