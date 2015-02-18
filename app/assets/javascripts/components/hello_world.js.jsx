@@ -6,7 +6,9 @@ var HelloWorld = React.createClass({
         <div class="hello-world-component">
           <h1>Hello World!</h1>
           <p>{someVar}</p>
-          <HelloWorldMessage text="Some message goes here" />
+          <HelloWorldMessage text="This is a test message" />
+          <HelloWorldMessage text="So is this." />
+          <HelloWorldMessage text="And another one" />
         </div>
       );
   }

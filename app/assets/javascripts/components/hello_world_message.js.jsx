@@ -1,7 +1,7 @@
 var HelloWorldMessage = React.createClass({
 
   propTypes: {
-    text: React.PropTypes.string.isRequired
+    text: React.PropTypes.string
   },
 
   render: function() {
