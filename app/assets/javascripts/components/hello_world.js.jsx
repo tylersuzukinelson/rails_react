@@ -10,7 +10,7 @@ var HelloWorld = React.createClass({
         <div class="hello-world-component">
           <h1>Hello World!</h1>
           <p style={pStyle}>{someVar}</p>
-          <HelloWorldMessage text="This is a test message" />
+          <HelloWorldMessage type="important" text="This is a test message" />
           <HelloWorldMessage text="So is this." />
           <HelloWorldMessage text="And another one" />
           <AnotherOne dingaling="dong" />
